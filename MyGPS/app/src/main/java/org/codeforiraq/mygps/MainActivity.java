@@ -76,7 +76,7 @@ ActivityCompat.requestPermissions(MainActivity.this, new String[]{Manifest.permi
     }
 
 
-   /** ask for permission at runtime**/
+   /** ask for permission Result at runtime**/
     @Override//This interface is the contract for receiving the results for Runtime permission requests.
     public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
